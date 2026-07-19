@@ -42,6 +42,7 @@ interface ProfileAvatarProps {
   sizeClassName: string;
 }
 
+
 const ProfileAvatar: React.FC<
   ProfileAvatarProps
 > = ({
