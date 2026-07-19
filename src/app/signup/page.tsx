@@ -421,7 +421,7 @@ const SignupPageContent = () => {
               </p>
 
               <h1 className="mt-1 text-xl font-black tracking-tight text-slate-950 dark:text-white sm:text-2xl md:text-3xl">
-                Join ShareBite
+                Join FeedForward
               </h1>
 
               <p className="mx-auto mt-1.5 max-w-md text-xs font-medium leading-5 text-slate-600 dark:text-zinc-400 sm:text-sm">
