@@ -550,6 +550,7 @@ const Footer = () => {
             : "pointer-events-none translate-y-5 scale-75 opacity-0"
         }`}
       >
+        
         <FiArrowUp />
       </button>
     </>
