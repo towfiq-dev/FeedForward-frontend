@@ -40,6 +40,7 @@ const FoodForm: React.FC<FoodFormProps> = ({
   onSubmit,
   submitBtnText = "Share Food",
 }) => {
+  
   return (
     <form onSubmit={onSubmit} className="space-y-6 px-5 py-6 sm:px-8 sm:py-8">
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
