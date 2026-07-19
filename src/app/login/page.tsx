@@ -289,7 +289,6 @@ const LoginPageContent = () => {
                   <h2 className="font-black">
                     Community Connection
                   </h2>
-
                   <p className="mt-1 text-sm leading-6 text-emerald-50/70">
                     Connect local food owners and
                     requesters.
