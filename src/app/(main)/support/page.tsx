@@ -34,9 +34,9 @@ import {
 ========================================================= */
 
 export const metadata: Metadata = {
-  title: "Support Centre | ShareBite",
+  title: "Support Centre | FeedForward",
   description:
-    "Find guidance about sharing food, requesting food, pickup coordination, food safety, volunteering and using the ShareBite platform.",
+    "Find guidance about sharing food, requesting food, pickup coordination, food safety, volunteering and using the FeedForward platform.",
 };
 
 /* =========================================================

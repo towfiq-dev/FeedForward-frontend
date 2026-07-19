@@ -39,9 +39,9 @@ import {
 ========================================================= */
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | ShareBite",
+  title: "Privacy Policy | FeedForward",
   description:
-    "Read the ShareBite Privacy Policy to understand how account, food-post, food-request and platform information may be collected, used and protected.",
+    "Read the FeedForward Privacy Policy to understand how account, food-post, food-request and platform information may be collected, used and protected.",
 };
 
 /* =========================================================

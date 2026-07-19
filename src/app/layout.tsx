@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "ShareBite",
-    template: "%s | ShareBite",
+    default: "FeedForward",
+    template: "%s | FeedForward",
   },
   description:
     "A community surplus food-sharing platform that connects people who have safe extra food with nearby community members.",

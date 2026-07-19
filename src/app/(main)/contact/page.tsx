@@ -41,9 +41,9 @@ import {
 ========================================================= */
 
 export const metadata: Metadata = {
-  title: "Contact Us | ShareBite",
+  title: "Contact Us | FeedForward",
   description:
-    "Contact ShareBite for help with food posts, food requests, pickup coordination, volunteering, safety concerns and general platform support.",
+    "Contact FeedForward for help with food posts, food requests, pickup coordination, volunteering, safety concerns and general platform support.",
 };
 
 /* =========================================================

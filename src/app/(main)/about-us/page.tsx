@@ -42,9 +42,9 @@ import {
 ========================================================= */
 
 export const metadata: Metadata = {
-  title: "About Us | ShareBite",
+  title: "About Us | FeedForward",
   description:
-    "Learn about ShareBite, our motivation, developed features, mission, vision and commitment to reducing food waste through responsible community sharing.",
+    "Learn about FeedForward, our motivation, developed features, mission, vision and commitment to reducing food waste through responsible community sharing.",
 };
 
 /* =========================================================
