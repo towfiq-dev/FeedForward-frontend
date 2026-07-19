@@ -231,7 +231,6 @@ const HowShareBiteWorks = () => {
               <p className="font-black text-slate-900 dark:text-white">
                 No Selling
               </p>
-
               <p className="text-xs text-slate-600 dark:text-zinc-400">
                 Food is shared completely free
               </p>
