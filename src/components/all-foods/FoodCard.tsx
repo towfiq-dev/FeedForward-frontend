@@ -9,6 +9,7 @@ import {
   FiMapPin,
   FiUsers,
 } from "react-icons/fi";
+
 import { MdFoodBank } from "react-icons/md";
 import type { Food } from "@/types/food";
 

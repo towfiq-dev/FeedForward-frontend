@@ -1,6 +1,7 @@
 import React from "react";
 
 const FoodCardSkeleton: React.FC = () => {
+  
   return (
     <div className="min-h-[520px] animate-pulse overflow-hidden rounded-2xl border border-slate-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
       <div className="h-48 bg-slate-200 dark:bg-zinc-800" />

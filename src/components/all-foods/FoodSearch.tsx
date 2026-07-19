@@ -14,6 +14,7 @@ const FoodSearch: React.FC<FoodSearchProps> = ({
   onChange,
   disabled = false,
 }) => {
+  
   return (
     <div className="relative w-full">
       <FiSearch

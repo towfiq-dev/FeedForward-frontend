@@ -39,6 +39,7 @@ const FoodFilters: React.FC<FoodFiltersProps> = ({
   hasActiveFilters,
   disabled = false,
 }) => {
+  
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
       <div className="mb-4 flex items-center justify-between gap-3">
