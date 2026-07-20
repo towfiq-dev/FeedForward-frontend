@@ -529,6 +529,7 @@ const ContactPage = () => {
                   Your Message
                 </label>
 
+
                 <textarea
                   id="message"
                   name="message"
