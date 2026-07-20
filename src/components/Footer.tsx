@@ -97,7 +97,7 @@ const SOCIAL_LINKS = [
   {
     id: 1,
     label: "Facebook",
-    href: "https://www.facebook.com/kouserahamed420",
+    href: "https://www.facebook.com/towfiqul618539",
     icon: <FaFacebookF />,
     className:
       "hover:border-blue-400 hover:text-blue-600 dark:hover:border-blue-500 dark:hover:text-blue-400",
@@ -105,7 +105,7 @@ const SOCIAL_LINKS = [
   {
     id: 2,
     label: "GitHub",
-    href: "https://github.com/kouser-ahamed",
+    href: "https://github.com/towfiq-dev",
     icon: <FaGithub />,
     className:
       "hover:border-slate-900 hover:text-slate-950 dark:hover:border-white dark:hover:text-white",
@@ -113,7 +113,7 @@ const SOCIAL_LINKS = [
   {
     id: 3,
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/kouser-ahamed",
+    href: "https://www.linkedin.com/in/towfiqulislam1",
     icon: <FaLinkedinIn />,
     className:
       "hover:border-sky-500 hover:text-sky-700 dark:hover:border-sky-500 dark:hover:text-sky-400",
@@ -438,17 +438,17 @@ const Footer = () => {
                     <FiMail className="mt-0.5 shrink-0 text-emerald-600 dark:text-emerald-400" />
 
                     <span className="break-all">
-                      sharebite.help@gmail.com
+                      feedforward.help@gmail.com
                     </span>
                   </a>
 
                   <a
-                    href="tel:+8801322699296"
+                    href="tel:+8801757574363"
                     className="group flex items-start justify-center gap-2 text-left text-xs font-semibold leading-5 text-slate-500 transition-colors hover:text-emerald-700 dark:text-zinc-400 dark:hover:text-emerald-400 sm:justify-start"
                   >
                     <FiPhone className="mt-0.5 shrink-0 text-emerald-600 dark:text-emerald-400" />
 
-                    <span>01322-699296</span>
+                    <span>01757574363</span>
                   </a>
 
                   <div className="flex items-start justify-center gap-2 text-left sm:justify-start">
@@ -522,12 +522,12 @@ const Footer = () => {
                 by
 
                 <a
-                  href="https://www.linkedin.com/in/kouser-ahamed"
+                  href="https://www.linkedin.com/in/towfiqulislam1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-extrabold text-emerald-700 transition-colors hover:text-emerald-800 dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
-                  Kouser Ahamed
+                  Towfiqul Islam
                 </a>
               </p>
             </div>
