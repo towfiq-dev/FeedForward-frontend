@@ -1,7 +1,6 @@
 import MySharedFoodsClient from "@/components/MySharedFoodsClient";
 import { auth } from "@/lib/auth";
 import { headers } from "next/headers";
-import Image from "next/image";
 import Link from "next/link";
 
 interface Food {
