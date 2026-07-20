@@ -287,7 +287,7 @@ const SupportPage = () => {
           <div className="text-center lg:text-left">
             <div className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white/80 px-4 py-2 text-xs font-extrabold uppercase tracking-[0.15em] text-emerald-800 shadow-sm backdrop-blur-md dark:border-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-300">
               <HiOutlineSparkles className="text-lg" />
-              ShareBite Support Centre
+              FeedForward Support Centre
             </div>
 
             <h1 className="mt-6 text-4xl font-black leading-tight tracking-tight text-slate-950 dark:text-white sm:text-5xl lg:text-6xl">
@@ -323,7 +323,7 @@ const SupportPage = () => {
                 href="/contact"
                 className="group inline-flex h-[54px] w-full items-center justify-center gap-3 rounded-xl border border-slate-300 bg-white/80 px-7 text-sm font-extrabold text-slate-800 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-emerald-300 hover:text-emerald-700 hover:shadow-md dark:border-zinc-700 dark:bg-zinc-900/75 dark:text-white dark:hover:border-emerald-800 dark:hover:text-emerald-400 sm:w-auto"
               >
-                Contact ShareBite
+                Contact FeedForward
 
                 <FiArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
               </Link>
