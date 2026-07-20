@@ -35,7 +35,7 @@ const HERO_SLIDES: HeroSlide[] = [
     title: "Let Good Food Reach",
     highlightedText: "Another Home",
     description:
-      "When fresh food remains after a family meal, celebration, restaurant service, or community event, share it through ShareBite. Someone nearby can request it and receive a good meal with dignity instead of letting it go to waste.",
+      "When fresh food remains after a family meal, celebration, restaurant service, or community event, share it through FeedForward. Someone nearby can request it and receive a good meal with dignity instead of letting it go to waste.",
   },
   {
     id: 2,
@@ -57,7 +57,7 @@ const HERO_SLIDES: HeroSlide[] = [
     highlightedText:
       "Surplus Into Support",
     description:
-      "ShareBite brings food owners and community members together through a respectful request system. By sharing good food from homes, programmes, restaurants, and gatherings, we can reduce waste and help more people enjoy a proper meal.",
+      "FeedForward brings food owners and community members together through a respectful request system. By sharing good food from homes, programmes, restaurants, and gatherings, we can reduce waste and help more people enjoy a proper meal.",
   },
 ];
 
@@ -123,7 +123,7 @@ const HeroSection = () => {
             >
               <Image
                 src={slide.image}
-                alt="People respectfully sharing fresh surplus food through ShareBite"
+                alt="People respectfully sharing fresh surplus food through FeedForward"
                 fill
                 priority={index === 0}
                 sizes="100vw"

@@ -131,7 +131,7 @@ const SUPPORT_OPTIONS: SupportOption[] = [
     id: 2,
     title: "Support Centre",
     description:
-      "Explore additional guidance about using ShareBite safely and responsibly.",
+      "Explore additional guidance about using FeedForward safely and responsibly.",
     href: "/support",
     buttonText: "Visit Support",
     icon: <FiUsers />,
@@ -140,7 +140,7 @@ const SUPPORT_OPTIONS: SupportOption[] = [
   },
   {
     id: 3,
-    title: "About ShareBite",
+    title: "About FeedForward",
     description:
       "Learn about our motivation, features, mission and future goals.",
     href: "/about-us",
@@ -167,7 +167,7 @@ const SOCIAL_LINKS = [
   {
     id: 2,
     label: "GitHub",
-    href: "https://github.com/kouser-ahamed",
+    href: "https://github.com/towfiq-dev",
     icon: <FaGithub />,
     className:
       "hover:border-slate-900 hover:bg-slate-100 hover:text-slate-950 dark:hover:border-white dark:hover:bg-zinc-800 dark:hover:text-white",
@@ -203,7 +203,7 @@ const ContactPage = () => {
         <div className="relative mx-auto w-full max-w-7xl px-4 text-center sm:px-6 lg:px-8">
           <div className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white/80 px-4 py-2 text-xs font-extrabold uppercase tracking-[0.15em] text-emerald-800 shadow-sm backdrop-blur-md dark:border-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-300">
             <HiOutlineSparkles className="text-lg" />
-            Contact ShareBite
+            Contact FeedForward
           </div>
 
           <h1 className="mx-auto mt-6 max-w-4xl text-4xl font-black leading-tight tracking-tight text-slate-950 dark:text-white sm:text-5xl lg:text-6xl">
@@ -214,7 +214,7 @@ const ContactPage = () => {
           </h1>
 
           <p className="mx-auto mt-6 max-w-3xl text-sm font-medium leading-8 text-slate-600 dark:text-zinc-300 sm:text-base">
-            Contact the ShareBite team for help with food posts,
+            Contact the FeedForward team for help with food posts,
             requests, pickup arrangements, volunteering, safety
             concerns or general platform feedback.
           </p>
@@ -250,7 +250,7 @@ const ContactPage = () => {
             </p>
 
             <h2 className="mt-3 text-3xl font-black tracking-tight text-slate-950 dark:text-white sm:text-4xl">
-              Contact Us About ShareBite
+              Contact Us About FeedForward
             </h2>
 
             <p className="mx-auto mt-4 max-w-2xl text-sm font-medium leading-7 text-slate-600 dark:text-zinc-400 sm:text-base">
@@ -303,7 +303,7 @@ const ContactPage = () => {
 
             <p className="mt-5 text-sm font-medium leading-8 text-slate-600 dark:text-zinc-400 sm:text-base">
               Share your question, feedback or concern with the
-              ShareBite team. You may contact us about food sharing,
+              FeedForward team. You may contact us about food sharing,
               food requests, pickup coordination, volunteering,
               platform usage or community safety.
             </p>
@@ -320,7 +320,7 @@ const ContactPage = () => {
                   </h3>
 
                   <p className="mt-2 text-sm font-medium leading-7 text-slate-600 dark:text-zinc-400">
-                    Ask questions about using ShareBite, managing food
+                    Ask questions about using FeedForward, managing food
                     posts or submitting food requests.
                   </p>
                 </div>
@@ -356,7 +356,7 @@ const ContactPage = () => {
                   <p className="mt-2 text-sm font-medium leading-7 text-slate-600 dark:text-zinc-400">
                     Contact support when a food post appears unsafe,
                     inaccurate, expired or inconsistent with
-                    ShareBite&apos;s sharing principles.
+                    FeedForward&apos;s sharing principles.
                   </p>
                 </div>
               </div>
@@ -597,7 +597,7 @@ const ContactPage = () => {
             </h2>
 
             <p className="mx-auto mt-4 max-w-2xl text-sm font-medium leading-7 text-slate-600 dark:text-zinc-400 sm:text-base">
-              Explore ShareBite&apos;s information pages for quick
+              Explore FeedForward&apos;s information pages for quick
               guidance about the platform and community food sharing.
             </p>
           </div>
@@ -656,7 +656,7 @@ const ContactPage = () => {
 
               <p className="mx-auto mt-4 max-w-2xl text-sm font-medium leading-7 text-slate-600 dark:text-zinc-300 sm:text-base">
                 Explore available food, share safe surplus food or
-                learn more about ShareBite&apos;s community mission.
+                learn more about FeedForward&apos;s community mission.
               </p>
 
               <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -673,7 +673,7 @@ const ContactPage = () => {
                   href="/about-us"
                   className="group inline-flex h-[54px] w-full items-center justify-center gap-3 rounded-xl border border-slate-300 bg-white/80 px-7 text-sm font-extrabold text-slate-800 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-emerald-300 hover:text-emerald-700 hover:shadow-md dark:border-zinc-700 dark:bg-zinc-900/75 dark:text-white dark:hover:border-emerald-800 dark:hover:text-emerald-400 sm:w-auto"
                 >
-                  Learn About ShareBite
+                  Learn About FeedForward
 
                   <FiArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
                 </Link>

@@ -23,7 +23,7 @@ const NotFoundPage = () => {
         <div className="mx-auto flex size-24 items-center justify-center rounded-full border-[8px] border-emerald-100 bg-linear-to-br from-emerald-700 via-green-600 to-lime-500 shadow-lg dark:border-emerald-950 dark:from-emerald-500 dark:via-green-500 dark:to-lime-400">
           <Image
             src="/assets/logo11.png"
-            alt="ShareBite logo"
+            alt="FeedForward logo"
             width={62}
             height={62}
             priority
@@ -41,7 +41,7 @@ const NotFoundPage = () => {
 
         <p className="mx-auto mt-4 max-w-xl text-base font-medium leading-7 text-slate-600 dark:text-zinc-400">
           The page may have been moved, removed, or the address may be incorrect.
-          Let&apos;s take you back to ShareBite.
+          Let&apos;s take you back to FeedForward.
         </p>
 
         <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">

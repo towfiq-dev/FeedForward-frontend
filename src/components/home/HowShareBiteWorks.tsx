@@ -141,7 +141,7 @@ const HowShareBiteWorks = () => {
           </h2>
 
           <p className="mx-auto mt-5 max-w-2xl text-sm font-medium leading-7 text-slate-700 dark:text-zinc-300 sm:text-base">
-            ShareBite helps good extra food move from one table
+            FeedForward helps good extra food move from one table
             to another. No selling, no service charge and no
             hidden fees—only respectful food sharing between
             people in the community.

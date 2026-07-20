@@ -402,7 +402,7 @@ const CommunityImpactStatistics = () => {
             impactData.totalUsers,
 
           description:
-            "People connected through ShareBite",
+            "People connected through FeedForward",
 
           icon: <FiUsers />,
 
@@ -576,7 +576,7 @@ const CommunityImpactStatistics = () => {
             Every shared food post, request and approval helps
             reduce food waste and connects good food with people
             nearby. These numbers come directly from the
-            ShareBite database.
+            FeedForward database.
           </p>
         </div>
 

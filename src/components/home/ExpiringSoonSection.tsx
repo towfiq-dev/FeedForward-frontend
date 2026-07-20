@@ -429,7 +429,7 @@ const ExpiringSoonSection = () => {
               <p className="mt-1 text-sm font-medium text-slate-500 dark:text-zinc-400">
                 Explore every currently
                 available food item on
-                ShareBite.
+                FeedForward.
               </p>
             </div>
           </div>

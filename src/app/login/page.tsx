@@ -221,7 +221,7 @@ const LoginPageContent = () => {
             >
               <Image
                 src="/assets/feedforward-icon.svg"
-                alt="ShareBite logo"
+                alt="FeedForward logo"
                 width={52}
                 height={52}
                 priority
@@ -243,7 +243,7 @@ const LoginPageContent = () => {
             </Link>
 
             <h1 className="mt-12 text-4xl font-black leading-tight">
-              Welcome Back to the ShareBite Community
+              Welcome Back to the FeedForward Community
             </h1>
 
             <p className="mt-5 max-w-md text-sm font-medium leading-8 text-emerald-50/80">
@@ -314,7 +314,7 @@ const LoginPageContent = () => {
               >
                 <Image
                   src="/assets/feedforward-icon.svg"
-                  alt="ShareBite logo"
+                  alt="FeedForward logo"
                   width={48}
                   height={48}
                   priority
@@ -334,7 +334,7 @@ const LoginPageContent = () => {
               </p>
 
               <h1 className="mt-2 text-3xl font-black tracking-tight text-slate-950 dark:text-white">
-                Sign In to ShareBite
+                Sign In to FeedForward
               </h1>
 
               <p className="mx-auto mt-3 max-w-md text-sm font-medium leading-7 text-slate-600 dark:text-zinc-400">

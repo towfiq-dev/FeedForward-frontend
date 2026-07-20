@@ -6,7 +6,7 @@ import AllFoodsClient from "@/components/all-foods/AllFoodsClient";
 export const metadata: Metadata = {
   title: "Available Foods | FeedForward",
   description:
-    "Browse and search available foods shared by the ShareBite community.",
+    "Browse and search available foods shared by the FeedForward community.",
 };
 
 const AllFoodsPage = () => {

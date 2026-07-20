@@ -25,7 +25,7 @@ interface Message {
 
 const PRESETS = [
   { label: "🔍 Available Food", query: "What foods are currently available?" },
-  { label: "🍲 How to Donate", query: "How do I list or share my surplus food on ShareBite?" },
+  { label: "🍲 How to Donate", query: "How do I list or share my surplus food on FeedForward?" },
   { label: "🛡️ Food Safety Rules", query: "What are the rules and safety guidelines for food sharing?" },
 ];
 
@@ -68,7 +68,7 @@ export default function AIChatWidget() {
         {
           id: "welcome",
           role: "assistant",
-          content: `Hi **${name}**! Welcome to **ShareBite**. 🌟\n\nI am your AI assistant. I can help you search for available surplus food, guide you on how to list/request meals, and share important food safety guidelines.\n\nHow can I help you today?`,
+          content: `Hi **${name}**! Welcome to **FeedForward**. 🌟\n\nI am your AI assistant. I can help you search for available surplus food, guide you on how to list/request meals, and share important food safety guidelines.\n\nHow can I help you today?`,
           timestamp: new Date(),
         },
       ]);
@@ -378,7 +378,7 @@ export default function AIChatWidget() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-sm leading-none flex items-center gap-1.5">
-                    ShareBite AI Assistant
+                    FeedForward AI Assistant
                   </h3>
                   <p className="text-[11px] text-green-200 mt-1 flex items-center gap-1">
                     Ready to help you share & find food

@@ -104,7 +104,7 @@ const SIZE_CLASSES: Record<
 ========================================================= */
 
 const ShareBiteLoader = ({
-  message = "Loading ShareBite",
+  message = "Loading FeedForward",
   subMessage = "Preparing fresh food-sharing information for you",
   mode = "section",
   size = "md",
@@ -182,7 +182,7 @@ const ShareBiteLoader = ({
           >
             <Image
               src="/assets/logo11.png"
-              alt="ShareBite"
+              alt="FeedForward"
               width={sizeStyles.logo}
               height={sizeStyles.logo}
               priority

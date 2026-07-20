@@ -84,7 +84,7 @@ const PRIVACY_SUMMARY: SummaryItem[] = [
     id: 1,
     title: "Clear Information",
     description:
-      "We aim to explain what information ShareBite may process and why it is needed.",
+      "We aim to explain what information FeedForward may process and why it is needed.",
     icon: <FiEye />,
     iconStyle:
       "bg-emerald-100 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-400",
@@ -127,7 +127,7 @@ const INFORMATION_CATEGORIES: InformationItem[] = [
     id: 1,
     title: "Account and Profile Information",
     description:
-      "Information provided when a user creates, signs in to or manages a ShareBite account.",
+      "Information provided when a user creates, signs in to or manages a FeedForward account.",
     examples: [
       "Full name",
       "Email address",
@@ -198,8 +198,8 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-emerald-100 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-400",
     paragraphs: [
-      "This Privacy Policy explains how ShareBite may collect, use, display, store and protect information when people use our community food-sharing website.",
-      "ShareBite connects people who have safe surplus food with community members who can request and collect it. This policy applies to account registration, profiles, food posts, food requests and related website activity.",
+      "This Privacy Policy explains how FeedForward may collect, use, display, store and protect information when people use our community food-sharing website.",
+      "FeedForward connects people who have safe surplus food with community members who can request and collect it. This policy applies to account registration, profiles, food posts, food requests and related website activity.",
     ],
   },
   {
@@ -210,7 +210,7 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-sky-100 text-sky-700 dark:bg-sky-950/60 dark:text-sky-400",
     paragraphs: [
-      "The information processed by ShareBite depends on how a person uses the website. Visitors can view public pages, while registered users provide additional information to access protected features.",
+      "The information processed by FeedForward depends on how a person uses the website. Visitors can view public pages, while registered users provide additional information to access protected features.",
     ],
     points: [
       "Name, email address and profile image connected to a user account.",
@@ -230,7 +230,7 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-violet-100 text-violet-700 dark:bg-violet-950/60 dark:text-violet-400",
     paragraphs: [
-      "ShareBite may use information to provide its core food-sharing features, manage accounts and support responsible interaction between food owners and requesters.",
+      "FeedForward may use information to provide its core food-sharing features, manage accounts and support responsible interaction between food owners and requesters.",
     ],
     points: [
       "Create, authenticate and manage user accounts.",
@@ -271,7 +271,7 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-rose-100 text-rose-700 dark:bg-rose-950/60 dark:text-rose-400",
     paragraphs: [
-      "ShareBite may display the pickup location entered by a food owner so that interested users can understand where collection will take place.",
+      "FeedForward may display the pickup location entered by a food owner so that interested users can understand where collection will take place.",
       "Users should provide only the location information required for pickup. A precise private residential address should not be placed publicly unless the user considers it safe and necessary.",
     ],
   },
@@ -283,7 +283,7 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-fuchsia-100 text-fuchsia-700 dark:bg-fuchsia-950/60 dark:text-fuchsia-400",
     paragraphs: [
-      "Users may upload food images and profile images. These images may be stored using an image-hosting or storage service and displayed through the ShareBite website.",
+      "Users may upload food images and profile images. These images may be stored using an image-hosting or storage service and displayed through the FeedForward website.",
       "Users should only upload images they have permission to use. Images should not contain unnecessary personal documents, private information or identifiable people without permission.",
     ],
   },
@@ -295,7 +295,7 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-amber-100 text-amber-700 dark:bg-amber-950/60 dark:text-amber-400",
     paragraphs: [
-      "ShareBite may use authentication cookies, tokens or session information to keep users signed in and protect restricted pages.",
+      "FeedForward may use authentication cookies, tokens or session information to keep users signed in and protect restricted pages.",
       "These technologies support essential website functionality and account security.",
     ],
     points: [
@@ -314,7 +314,7 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-cyan-100 text-cyan-700 dark:bg-cyan-950/60 dark:text-cyan-400",
     paragraphs: [
-      "ShareBite does not intend to sell users' personal information.",
+      "FeedForward does not intend to sell users' personal information.",
       "Information may be shared only where necessary to provide website features, protect users, comply with legal obligations or operate the platform through trusted services.",
     ],
     points: [
@@ -333,7 +333,7 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-indigo-100 text-indigo-700 dark:bg-indigo-950/60 dark:text-indigo-400",
     paragraphs: [
-      "ShareBite uses reasonable technical measures such as authenticated access, protected routes and database controls to reduce unauthorised access.",
+      "FeedForward uses reasonable technical measures such as authenticated access, protected routes and database controls to reduce unauthorised access.",
       "No website or online storage system can guarantee complete security. Users are responsible for protecting their login information and should never share passwords, verification codes or authentication tokens.",
     ],
   },
@@ -357,7 +357,7 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-emerald-100 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-400",
     paragraphs: [
-      "Depending on available ShareBite features and applicable law, users may have choices concerning their account and personal information.",
+      "Depending on available FeedForward features and applicable law, users may have choices concerning their account and personal information.",
     ],
     points: [
       "Review and update available profile information.",
@@ -376,7 +376,7 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-red-100 text-red-700 dark:bg-red-950/60 dark:text-red-400",
     paragraphs: [
-      "Automated account deletion and complete privacy-request processing are planned for a future version of ShareBite.",
+      "Automated account deletion and complete privacy-request processing are planned for a future version of FeedForward.",
       "When these features are implemented, users may need to verify their identity before account or data deletion to prevent unauthorised requests.",
     ],
   },
@@ -388,7 +388,7 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-purple-100 text-purple-700 dark:bg-purple-950/60 dark:text-purple-400",
     paragraphs: [
-      "The current ShareBite Contact page is a static interface. Information entered into the form is not currently sent to the backend or stored in the database.",
+      "The current FeedForward Contact page is a static interface. Information entered into the form is not currently sent to the backend or stored in the database.",
       "When contact-form backend functionality is introduced, this Privacy Policy should be updated to explain what message information is collected, where it is stored and how long it is retained.",
     ],
   },
@@ -400,7 +400,7 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-pink-100 text-pink-700 dark:bg-pink-950/60 dark:text-pink-400",
     paragraphs: [
-      "ShareBite is intended for users who can responsibly manage an account, publish food information and arrange food collection.",
+      "FeedForward is intended for users who can responsibly manage an account, publish food information and arrange food collection.",
       "Children should not independently provide personal information or arrange food pickup without appropriate parent or guardian supervision.",
     ],
   },
@@ -412,9 +412,9 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-sky-100 text-sky-700 dark:bg-sky-950/60 dark:text-sky-400",
     paragraphs: [
-      "ShareBite may use third-party providers for authentication, website hosting, database services, image storage or other technical functions.",
+      "FeedForward may use third-party providers for authentication, website hosting, database services, image storage or other technical functions.",
       "These providers may process limited information according to their own privacy policies and service terms.",
-      "External social-media links are controlled by their respective platforms, and ShareBite is not responsible for their privacy practices.",
+      "External social-media links are controlled by their respective platforms, and FeedForward is not responsible for their privacy practices.",
     ],
   },
   {
@@ -425,7 +425,7 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-orange-100 text-orange-700 dark:bg-orange-950/60 dark:text-orange-400",
     paragraphs: [
-      "This Privacy Policy may be updated when ShareBite introduces new features, changes its backend services or modifies the way information is handled.",
+      "This Privacy Policy may be updated when FeedForward introduces new features, changes its backend services or modifies the way information is handled.",
       "The revised policy should be published on this page together with an updated effective date.",
     ],
   },
@@ -437,7 +437,7 @@ const POLICY_SECTIONS: PolicySection[] = [
     iconStyle:
       "bg-violet-100 text-violet-700 dark:bg-violet-950/60 dark:text-violet-400",
     paragraphs: [
-      "Users may visit the ShareBite Contact page for general questions about this Privacy Policy or the future handling of account information.",
+      "Users may visit the FeedForward Contact page for general questions about this Privacy Policy or the future handling of account information.",
       "Because the Contact form is currently static, direct privacy-request processing is not yet available through the website.",
     ],
   },
@@ -466,7 +466,7 @@ const PrivacyPolicyPage = () => {
           <div className="text-center lg:text-left">
             <div className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white/80 px-4 py-2 text-xs font-extrabold uppercase tracking-[0.15em] text-emerald-800 shadow-sm backdrop-blur-md dark:border-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-300">
               <HiOutlineSparkles className="text-lg" />
-              ShareBite Privacy Policy
+              FeedForward Privacy Policy
             </div>
 
             <h1 className="mt-6 text-4xl font-black leading-tight tracking-tight text-slate-950 dark:text-white sm:text-5xl lg:text-6xl">
@@ -477,7 +477,7 @@ const PrivacyPolicyPage = () => {
             </h1>
 
             <p className="mx-auto mt-6 max-w-2xl text-sm font-medium leading-8 text-slate-600 dark:text-zinc-300 sm:text-base lg:mx-0">
-              This policy explains how ShareBite may process account,
+              This policy explains how FeedForward may process account,
               profile, food-post, food-request and technical
               information while providing its community food-sharing
               features.
@@ -522,7 +522,7 @@ const PrivacyPolicyPage = () => {
               </div>
 
               <h2 className="mt-6 text-center text-2xl font-black text-slate-950 dark:text-white sm:text-3xl">
-                Privacy at ShareBite
+                Privacy at FeedForward
               </h2>
 
               <p className="mx-auto mt-3 max-w-md text-center text-sm font-medium leading-7 text-slate-600 dark:text-zinc-400">
@@ -578,7 +578,7 @@ const PrivacyPolicyPage = () => {
               </h2>
 
               <p className="mt-2 text-sm font-medium leading-7 text-amber-900/80 dark:text-amber-200/80">
-                ShareBite is currently under development. The Contact
+                FeedForward is currently under development. The Contact
                 form is static and does not currently send or store
                 messages. Automated account deletion, advanced privacy
                 controls and direct privacy-request processing may be
@@ -601,7 +601,7 @@ const PrivacyPolicyPage = () => {
             </p>
 
             <h2 className="mt-3 text-3xl font-black tracking-tight text-slate-950 dark:text-white sm:text-4xl">
-              How ShareBite Approaches Privacy
+              How FeedForward Approaches Privacy
             </h2>
 
             <p className="mx-auto mt-4 max-w-2xl text-sm font-medium leading-7 text-slate-600 dark:text-zinc-400 sm:text-base">
@@ -648,7 +648,7 @@ const PrivacyPolicyPage = () => {
             </div>
 
             <h2 className="mt-6 text-3xl font-black tracking-tight text-slate-950 dark:text-white sm:text-4xl">
-              Information ShareBite May Process
+              Information FeedForward May Process
             </h2>
 
             <p className="mx-auto mt-4 max-w-2xl text-sm font-medium leading-7 text-slate-600 dark:text-zinc-400 sm:text-base">
@@ -717,7 +717,7 @@ const PrivacyPolicyPage = () => {
 
                 <div>
                   <p className="text-xs font-extrabold uppercase tracking-[0.14em] text-emerald-700 dark:text-emerald-400">
-                    ShareBite Policy
+                    FeedForward Policy
                   </p>
 
                   <h2 className="mt-1 text-lg font-black text-slate-950 dark:text-white">
@@ -889,7 +889,7 @@ const PrivacyPolicyPage = () => {
 
                 <p className="mt-2 text-sm font-medium leading-7 text-slate-600 dark:text-zinc-400">
                   Use accurate profile, food, expiry and pickup
-                  information when using ShareBite.
+                  information when using FeedForward.
                 </p>
               </div>
             </article>
@@ -948,7 +948,7 @@ const PrivacyPolicyPage = () => {
                   href="/contact"
                   className="group inline-flex h-[54px] w-full items-center justify-center gap-3 rounded-xl bg-emerald-700 px-7 text-sm font-extrabold text-white shadow-lg shadow-emerald-700/20 transition-all duration-300 hover:-translate-y-1 hover:bg-emerald-800 hover:shadow-xl dark:bg-emerald-500 dark:text-emerald-950 dark:hover:bg-emerald-400 sm:w-auto"
                 >
-                  Contact ShareBite
+                  Contact FeedForward
 
                   <FiArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
                 </Link>
@@ -966,7 +966,7 @@ const PrivacyPolicyPage = () => {
                   href="/about-us"
                   className="group inline-flex h-[54px] w-full items-center justify-center gap-3 rounded-xl border border-sky-300 bg-sky-50/80 px-7 text-sm font-extrabold text-sky-700 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-sky-400 hover:bg-sky-100 dark:border-sky-900 dark:bg-sky-950/30 dark:text-sky-400 dark:hover:border-sky-800 dark:hover:bg-sky-950/50 sm:w-auto"
                 >
-                  About ShareBite
+                  About FeedForward
 
                   <FiArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
                 </Link>

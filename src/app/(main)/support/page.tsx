@@ -130,7 +130,7 @@ const SUPPORT_TOPICS: SupportTopic[] = [
     id: 4,
     title: "Volunteer Support",
     description:
-      "Understand how volunteers can contribute to the ShareBite community.",
+      "Understand how volunteers can contribute to the FeedForward community.",
     icon: <MdOutlineVolunteerActivism />,
     iconStyle:
       "bg-fuchsia-100 text-fuchsia-700 dark:bg-fuchsia-950/60 dark:text-fuchsia-400",
@@ -140,7 +140,7 @@ const SUPPORT_TOPICS: SupportTopic[] = [
       "Help organise community food-sharing events.",
       "Promote responsible food-waste awareness.",
       "Guide new users when using the platform.",
-      "Report safety concerns to the ShareBite team.",
+      "Report safety concerns to the FeedForward team.",
     ],
   },
 ];
@@ -181,7 +181,7 @@ const SAFETY_ITEMS: SafetyItem[] = [
     id: 4,
     title: "Report Suspicious Posts",
     description:
-      "Contact ShareBite when information appears unsafe, inaccurate or intentionally misleading.",
+      "Contact FeedForward when information appears unsafe, inaccurate or intentionally misleading.",
     icon: <FiAlertTriangle />,
     iconStyle:
       "bg-rose-100 text-rose-700 dark:bg-rose-950/60 dark:text-rose-400",
@@ -197,7 +197,7 @@ const QUICK_LINKS: QuickLink[] = [
     id: 1,
     title: "Explore Available Foods",
     description:
-      "Browse food currently shared by members of the ShareBite community.",
+      "Browse food currently shared by members of the FeedForward community.",
     href: "/all-foods",
     buttonText: "Explore Foods",
     icon: <MdOutlineFastfood />,
@@ -217,7 +217,7 @@ const QUICK_LINKS: QuickLink[] = [
   },
   {
     id: 3,
-    title: "Contact ShareBite",
+    title: "Contact FeedForward",
     description:
       "Visit the Contact page for general enquiries, feedback and safety concerns.",
     href: "/contact",
@@ -235,9 +235,9 @@ const QUICK_LINKS: QuickLink[] = [
 const COMMON_QUESTIONS = [
   {
     id: 1,
-    question: "Is food shared through ShareBite free?",
+    question: "Is food shared through FeedForward free?",
     answer:
-      "Yes. ShareBite is designed for free community food sharing. It is not a food-selling marketplace.",
+      "Yes. FeedForward is designed for free community food sharing. It is not a food-selling marketplace.",
   },
   {
     id: 2,
@@ -247,9 +247,9 @@ const COMMON_QUESTIONS = [
   },
   {
     id: 3,
-    question: "Does ShareBite deliver every food item?",
+    question: "Does FeedForward deliver every food item?",
     answer:
-      "No. ShareBite mainly connects food owners and requesters. Pickup or delivery arrangements depend on the people involved and available volunteer support.",
+      "No. FeedForward mainly connects food owners and requesters. Pickup or delivery arrangements depend on the people involved and available volunteer support.",
   },
   {
     id: 4,
@@ -259,7 +259,7 @@ const COMMON_QUESTIONS = [
   },
   {
     id: 5,
-    question: "Can restaurants and organisations use ShareBite?",
+    question: "Can restaurants and organisations use FeedForward?",
     answer:
       "Yes. Individuals, families, restaurants, cafés, offices, events and community organisations may share suitable surplus food responsibly.",
   },
@@ -300,7 +300,7 @@ const SupportPage = () => {
             <p className="mx-auto mt-6 max-w-2xl text-sm font-medium leading-8 text-slate-600 dark:text-zinc-300 sm:text-base lg:mx-0">
               Find helpful guidance about sharing food, submitting
               requests, arranging pickup, food safety and volunteering
-              through ShareBite.
+              through FeedForward.
             </p>
 
             <p className="mx-auto mt-4 max-w-2xl text-sm font-medium leading-8 text-slate-600 dark:text-zinc-400 sm:text-base lg:mx-0">
@@ -516,7 +516,7 @@ const SupportPage = () => {
               </h3>
 
               <p className="mt-2 text-sm font-medium leading-7 text-amber-800 dark:text-amber-200/80">
-                ShareBite helps connect food owners and requesters, but
+                FeedForward helps connect food owners and requesters, but
                 every user must assess the food information and
                 condition responsibly. Do not share, request or collect
                 expired, spoiled, contaminated or improperly stored
@@ -673,7 +673,7 @@ const SupportPage = () => {
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-xs font-extrabold uppercase tracking-[0.15em] text-sky-700 dark:text-sky-400">
-              More ShareBite Resources
+              More FeedForward Resources
             </p>
 
             <h2 className="mt-3 text-3xl font-black tracking-tight text-slate-950 dark:text-white sm:text-4xl">
@@ -741,7 +741,7 @@ const SupportPage = () => {
               <p className="mx-auto mt-4 max-w-2xl text-sm font-medium leading-7 text-slate-600 dark:text-zinc-300 sm:text-base">
                 Visit the Contact page to share your question,
                 feedback, food-safety concern or volunteer enquiry with
-                ShareBite.
+                FeedForward.
               </p>
 
               <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -749,7 +749,7 @@ const SupportPage = () => {
                   href="/contact"
                   className="group inline-flex h-[54px] w-full items-center justify-center gap-3 rounded-xl bg-emerald-700 px-7 text-sm font-extrabold text-white shadow-lg shadow-emerald-700/20 transition-all duration-300 hover:-translate-y-1 hover:bg-emerald-800 hover:shadow-xl dark:bg-emerald-500 dark:text-emerald-950 dark:hover:bg-emerald-400 sm:w-auto"
                 >
-                  Contact ShareBite
+                  Contact FeedForward
 
                   <FiArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
                 </Link>
@@ -758,7 +758,7 @@ const SupportPage = () => {
                   href="/about-us"
                   className="group inline-flex h-[54px] w-full items-center justify-center gap-3 rounded-xl border border-slate-300 bg-white/80 px-7 text-sm font-extrabold text-slate-800 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-emerald-300 hover:text-emerald-700 hover:shadow-md dark:border-zinc-700 dark:bg-zinc-900/75 dark:text-white dark:hover:border-emerald-800 dark:hover:text-emerald-400 sm:w-auto"
                 >
-                  About ShareBite
+                  About FeedForward
 
                   <FiArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
                 </Link>

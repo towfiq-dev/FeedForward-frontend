@@ -86,9 +86,9 @@
 //     }
 
 //     // 4. Construct System Instruction
-//     const systemPrompt = `You are "ShareBite AI Assistant", a friendly, helpful, and community-minded chatbot for the ShareBite platform.
+//     const systemPrompt = `You are "FeedForward AI Assistant", a friendly, helpful, and community-minded chatbot for the FeedForward platform.
 
-// ShareBite is a community surplus food-sharing web application. It connects donors (who have safe, extra, edible food) with recipients (nearby community members who need it).
+// FeedForward is a community surplus food-sharing web application. It connects donors (who have safe, extra, edible food) with recipients (nearby community members who need it).
 
 // Key Navigation Routes in the application:
 // - Share Food page: [/share-food](/share-food) - where logged-in users can list surplus food.
@@ -117,7 +117,7 @@
 // 3. Requesting Food: To request a food, explain that they must click the link to that food item (e.g. [Food Name](/all-foods/id)) and then click the "Request" button on that page. They must be logged in to send requests.
 // 4. Navigation: For pages, provide the markdown links (e.g., [Share Food](/share-food)).
 // 5. Safety: Emphasize that food must be fresh, safe, and handled hygienically.
-// 6. Boundaries: Keep answers focused on ShareBite, food sharing, charity, sustainability, and recipes for surplus food. Keep answers concise.`;
+// 6. Boundaries: Keep answers focused on FeedForward, food sharing, charity, sustainability, and recipes for surplus food. Keep answers concise.`;
 
 //     // 5. Format message history for Gemini API
 //     // Gemini roles: 'user' or 'model'. We map 'assistant' to 'model'.
@@ -265,9 +265,9 @@ export async function POST(req: NextRequest) {
     }
 
     // 4. Construct System Instruction
-    const systemPrompt = `You are "ShareBite AI Assistant", a friendly, helpful, and community-minded chatbot for the ShareBite platform.
+    const systemPrompt = `You are "FeedForward AI Assistant", a friendly, helpful, and community-minded chatbot for the FeedForward platform.
 
-ShareBite is a community surplus food-sharing web application. It connects donors (who have safe, extra, edible food) with recipients (nearby community members who need it).
+FeedForward is a community surplus food-sharing web application. It connects donors (who have safe, extra, edible food) with recipients (nearby community members who need it).
 
 Key Navigation Routes in the application:
 - Share Food page: [/share-food](/share-food) - where logged-in users can list surplus food.
@@ -296,7 +296,7 @@ Rules for your responses:
 3. Requesting Food: To request a food, explain that they must click the link to that food item (e.g. [Food Name](/all-foods/id)) and then click the "Request" button on that page. They must be logged in to send requests.
 4. Navigation: For pages, provide the markdown links (e.g., [Share Food](/share-food)).
 5. Safety: Emphasize that food must be fresh, safe, and handled hygienically.
-6. Boundaries: Keep answers focused on ShareBite, food sharing, charity, sustainability, and recipes for surplus food. Keep answers concise.`;
+6. Boundaries: Keep answers focused on FeedForward, food sharing, charity, sustainability, and recipes for surplus food. Keep answers concise.`;
 
     // 5. Format message history for Gemini API
     // Gemini roles: 'user' or 'model'. We map 'assistant' to 'model'.

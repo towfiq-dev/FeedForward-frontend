@@ -130,7 +130,7 @@ const VOLUNTEER_STEPS = [
   {
     id: 2,
     number: "02",
-    title: "Contact ShareBite",
+    title: "Contact FeedForward",
     description:
       "Visit the Contact page and send us an email or message expressing your interest.",
   },
@@ -178,7 +178,7 @@ const VolunteerSection = () => {
           <div className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50/90 px-4 py-2 text-xs font-extrabold uppercase tracking-[0.15em] text-emerald-800 shadow-sm dark:border-emerald-800/60 dark:bg-emerald-950/35 dark:text-emerald-300">
             <HiOutlineHandRaised className="text-lg" />
 
-            Volunteer With ShareBite
+            Volunteer With FeedForward
           </div>
 
           <h2 className="mt-6 text-3xl font-black tracking-tight text-slate-950 dark:text-white sm:text-4xl lg:text-5xl">

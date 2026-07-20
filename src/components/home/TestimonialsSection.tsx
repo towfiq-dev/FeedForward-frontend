@@ -63,7 +63,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "Food Sharer",
     location: "Dhanmondi, Dhaka",
     message:
-      "After a family programme, we had several fresh meals left. ShareBite helped us share them with nearby people instead of throwing good food away.",
+      "After a family programme, we had several fresh meals left. FeedForward helped us share them with nearby people instead of throwing good food away.",
     initials: "AR",
     avatarGradient:
       "from-emerald-600 to-green-400",
@@ -91,7 +91,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "Food Sharer",
     location: "Uttara, Dhaka",
     message:
-      "Sharing food through ShareBite felt meaningful. Something extra for our family became a proper meal for someone else nearby.",
+      "Sharing food through FeedForward felt meaningful. Something extra for our family became a proper meal for someone else nearby.",
     initials: "NJ",
     avatarGradient:
       "from-violet-600 to-purple-400",
@@ -161,7 +161,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "Community Volunteer",
     location: "Farmgate, Dhaka",
     message:
-      "ShareBite creates a connection between people who have extra food and people who can use it. It feels like a real community initiative.",
+      "FeedForward creates a connection between people who have extra food and people who can use it. It feels like a real community initiative.",
     initials: "IH",
     avatarGradient:
       "from-blue-600 to-sky-400",
@@ -203,7 +203,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "Event Volunteer",
     location: "Gulshan, Dhaka",
     message:
-      "Instead of disposing of untouched event food, we were able to post it for free. ShareBite made responsible sharing much easier.",
+      "Instead of disposing of untouched event food, we were able to post it for free. FeedForward made responsible sharing much easier.",
     initials: "SC",
     avatarGradient:
       "from-pink-600 to-orange-400",

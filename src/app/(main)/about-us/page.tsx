@@ -163,7 +163,7 @@ const DEVELOPED_FEATURES: FeatureItem[] = [
 ];
 
 /* =========================================================
-   How ShareBite works
+   How FeedForward works
 ========================================================= */
 
 const PROCESS_ITEMS: ProcessItem[] = [
@@ -227,7 +227,7 @@ const PRINCIPLES: PrincipleItem[] = [
     id: 2,
     title: "Free Sharing",
     description:
-      "ShareBite is designed for sharing suitable surplus food freely, not for selling food or operating as a marketplace.",
+      "FeedForward is designed for sharing suitable surplus food freely, not for selling food or operating as a marketplace.",
     icon: <FiHeart />,
     iconStyle:
       "from-rose-600 via-pink-500 to-orange-400",
@@ -336,7 +336,7 @@ const AboutUsPage = () => {
           <div className="text-center lg:text-left">
             <div className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white/80 px-4 py-2 text-xs font-extrabold uppercase tracking-[0.15em] text-emerald-800 shadow-sm backdrop-blur-md dark:border-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-300">
               <HiOutlineSparkles className="text-lg" />
-              About ShareBite
+              About FeedForward
             </div>
 
             <h1 className="mt-6 text-4xl font-black leading-tight tracking-tight text-slate-950 dark:text-white sm:text-5xl lg:text-6xl">
@@ -347,7 +347,7 @@ const AboutUsPage = () => {
             </h1>
 
             <p className="mx-auto mt-6 max-w-2xl text-sm font-medium leading-8 text-slate-600 dark:text-zinc-300 sm:text-base lg:mx-0">
-              ShareBite is a community-based food-sharing platform
+              FeedForward is a community-based food-sharing platform
               created to reduce avoidable food waste and make
               responsible food sharing easier. It connects people who
               have safe surplus food with nearby community members who
@@ -355,7 +355,7 @@ const AboutUsPage = () => {
             </p>
 
             <p className="mx-auto mt-4 max-w-2xl text-sm font-medium leading-8 text-slate-600 dark:text-zinc-400 sm:text-base lg:mx-0">
-              ShareBite promotes cooperation, sustainability and
+              FeedForward promotes cooperation, sustainability and
               mutual respect. It is not based on charity or commercial
               food sales. It helps equal community members share usable
               extra food freely and responsibly.
@@ -453,7 +453,7 @@ const AboutUsPage = () => {
             </div>
 
             <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 dark:text-white sm:text-4xl">
-              Why We Created ShareBite
+              Why We Created FeedForward
             </h2>
 
             <p className="mt-5 text-sm font-medium leading-8 text-slate-600 dark:text-zinc-400 sm:text-base">
@@ -465,7 +465,7 @@ const AboutUsPage = () => {
             </p>
 
             <p className="mt-4 text-sm font-medium leading-8 text-slate-600 dark:text-zinc-400 sm:text-base">
-              ShareBite was created to solve this communication gap.
+              FeedForward was created to solve this communication gap.
               Our platform makes it easier for food owners to publish
               surplus food and for nearby community members to discover
               and request it.
@@ -516,7 +516,7 @@ const AboutUsPage = () => {
             </div>
 
             <h2 className="mt-6 text-3xl font-black tracking-tight text-slate-950 dark:text-white sm:text-4xl">
-              ShareBite Website Features
+              FeedForward Website Features
             </h2>
 
             <p className="mx-auto mt-4 max-w-2xl text-sm font-medium leading-7 text-slate-600 dark:text-zinc-400 sm:text-base">
@@ -564,11 +564,11 @@ const AboutUsPage = () => {
             </div>
 
             <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 dark:text-white sm:text-4xl">
-              How ShareBite Works
+              How FeedForward Works
             </h2>
 
             <p className="mx-auto mt-4 max-w-2xl text-sm font-medium leading-7 text-slate-600 dark:text-zinc-400 sm:text-base">
-              ShareBite creates a clear connection between a food
+              FeedForward creates a clear connection between a food
               owner and a requester through four simple steps.
             </p>
           </div>
@@ -619,7 +619,7 @@ const AboutUsPage = () => {
             </h2>
 
             <p className="mx-auto mt-4 max-w-2xl text-sm font-medium leading-7 text-slate-600 dark:text-zinc-400 sm:text-base">
-              ShareBite is built around food safety, free sharing,
+              FeedForward is built around food safety, free sharing,
               dignity, transparency and community responsibility.
             </p>
           </div>
@@ -698,7 +698,7 @@ const AboutUsPage = () => {
       </section>
 
       {/* =====================================================
-          Who can use ShareBite
+          Who can use FeedForward
       ====================================================== */}
 
       <section className="bg-slate-50 py-20 dark:bg-[#080a09] sm:py-24">
@@ -710,11 +710,11 @@ const AboutUsPage = () => {
             </div>
 
             <h2 className="mt-6 text-3xl font-black tracking-tight text-slate-950 dark:text-white sm:text-4xl">
-              Who Can Use ShareBite?
+              Who Can Use FeedForward?
             </h2>
 
             <p className="mt-5 text-sm font-medium leading-8 text-slate-600 dark:text-zinc-400 sm:text-base">
-              ShareBite welcomes individuals, organisations,
+              FeedForward welcomes individuals, organisations,
               restaurants, event organisers and volunteers who want to
               take responsible action against food waste.
             </p>
@@ -723,7 +723,7 @@ const AboutUsPage = () => {
               href="/contact"
               className="group mt-7 inline-flex items-center gap-2 text-sm font-extrabold text-emerald-700 transition-colors hover:text-emerald-800 dark:text-emerald-400 dark:hover:text-emerald-300"
             >
-              Contact the ShareBite Team
+              Contact the FeedForward Team
 
               <FiArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
@@ -753,18 +753,18 @@ const AboutUsPage = () => {
       </section>
 
       {/* =====================================================
-          What ShareBite is not
+          What FeedForward is not
       ====================================================== */}
 
       <section className="py-20 sm:py-24">
         <div className="mx-auto w-full max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="rounded-[34px] border border-orange-200 bg-orange-50/60 p-7 dark:border-orange-900/60 dark:bg-orange-950/15 sm:p-10">
             <h2 className="text-center text-3xl font-black tracking-tight text-slate-950 dark:text-white">
-              What ShareBite Is Not
+              What FeedForward Is Not
             </h2>
 
             <p className="mx-auto mt-4 max-w-3xl text-center text-sm font-medium leading-8 text-slate-600 dark:text-zinc-400 sm:text-base">
-              ShareBite is not an online food marketplace, restaurant
+              FeedForward is not an online food marketplace, restaurant
               delivery service or food-selling platform. It connects
               food sharers and requesters so they can arrange
               collection responsibly.
@@ -773,7 +773,7 @@ const AboutUsPage = () => {
             <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3">
               {[
                 "Expired, spoiled or contaminated food should never be shared.",
-                "ShareBite does not guarantee delivery for every food post.",
+                "FeedForward does not guarantee delivery for every food post.",
                 "Food shared through the platform should not be sold.",
               ].map((item) => (
                 <div
@@ -809,7 +809,7 @@ const AboutUsPage = () => {
             </h2>
 
             <p className="mt-5 text-sm font-medium leading-8 text-slate-600 dark:text-zinc-400 sm:text-base">
-              ShareBite aims to grow into a trusted community network
+              FeedForward aims to grow into a trusted community network
               that connects more individuals, restaurants,
               organisations, volunteers and local partners.
             </p>
@@ -866,7 +866,7 @@ const AboutUsPage = () => {
             </h2>
 
             <p className="mx-auto mt-5 max-w-3xl text-sm font-medium leading-8 text-slate-600 dark:text-zinc-400 sm:text-base">
-              ShareBite was designed and developed as a modern
+              FeedForward was designed and developed as a modern
               full-stack community platform. The project combines
               secure authentication, food-post management, database
               integration, request coordination, responsive design,
@@ -944,7 +944,7 @@ const AboutUsPage = () => {
                   href="/contact"
                   className="group inline-flex h-[54px] w-full items-center justify-center gap-3 rounded-xl border border-sky-300 bg-sky-50/80 px-7 text-sm font-extrabold text-sky-700 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-sky-400 hover:bg-sky-100 hover:shadow-md dark:border-sky-900 dark:bg-sky-950/30 dark:text-sky-400 dark:hover:border-sky-800 dark:hover:bg-sky-950/50 sm:w-auto"
                 >
-                  Contact ShareBite
+                  Contact FeedForward
 
                   <FiArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
                 </Link>

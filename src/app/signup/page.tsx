@@ -291,7 +291,7 @@ const SignupPageContent = () => {
             >
               <Image
                 src="/assets/feedforward-icon.svg"
-                alt="ShareBite logo"
+                alt="FeedForward logo"
                 width={48}
                 height={48}
                 priority
@@ -322,7 +322,7 @@ const SignupPageContent = () => {
             </h1>
 
             <p className="mt-4 max-w-md text-sm font-medium leading-6 text-emerald-50/78">
-              Create your ShareBite account to share
+              Create your FeedForward account to share
               safe surplus food, request available
               items and support responsible community
               action.
@@ -401,7 +401,7 @@ const SignupPageContent = () => {
               >
                 <Image
                   src="/assets/feedforward-icon.svg"
-                  alt="ShareBite logo"
+                  alt="FeedForward logo"
                   width={40}
                   height={40}
                   priority

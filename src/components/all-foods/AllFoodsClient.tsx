@@ -568,7 +568,7 @@ const AllFoodsClient: React.FC = () => {
               <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate-600 dark:text-zinc-400">
                 Discover available
                 homemade foods shared by
-                members of the ShareBite
+                members of the FeedForward
                 community.
               </p>
             </div>

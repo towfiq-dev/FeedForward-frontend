@@ -100,7 +100,7 @@ const TOPIC_CARDS: TopicCard[] = [
     id: 4,
     title: "Volunteer Support",
     description:
-      "Discover how to join field activities and support the ShareBite community.",
+      "Discover how to join field activities and support the FeedForward community.",
     icon: <HiOutlineHandRaised />,
     iconStyle:
       "from-violet-600 via-purple-500 to-fuchsia-400",
@@ -117,9 +117,9 @@ const FAQ_ITEMS: FAQItem[] = [
   {
     id: 1,
     category: "General",
-    question: "Is ShareBite completely free to use?",
+    question: "Is FeedForward completely free to use?",
     answer:
-      "Yes. ShareBite is a community-based platform where users can post, request and share safe surplus food without selling it.",
+      "Yes. FeedForward is a community-based platform where users can post, request and share safe surplus food without selling it.",
     icon: <FiHelpCircle />,
     iconStyle:
       "bg-emerald-100 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-400",
@@ -133,9 +133,9 @@ const FAQ_ITEMS: FAQItem[] = [
   {
     id: 2,
     category: "Food Sharing",
-    question: "Who can share food on ShareBite?",
+    question: "Who can share food on FeedForward?",
     answer:
-      "Individuals, families, restaurants, offices, event organisers and community groups can share safe surplus food through ShareBite.",
+      "Individuals, families, restaurants, offices, event organisers and community groups can share safe surplus food through FeedForward.",
     icon: <FiUsers />,
     iconStyle:
       "bg-sky-100 text-sky-700 dark:bg-sky-950/60 dark:text-sky-400",
@@ -213,9 +213,9 @@ const FAQ_ITEMS: FAQItem[] = [
   {
     id: 7,
     category: "Delivery",
-    question: "Does ShareBite deliver food directly?",
+    question: "Does FeedForward deliver food directly?",
     answer:
-      "ShareBite mainly connects food sharers and requesters. Direct delivery is not guaranteed, although volunteers may assist during suitable local activities.",
+      "FeedForward mainly connects food sharers and requesters. Direct delivery is not guaranteed, although volunteers may assist during suitable local activities.",
     icon: <FiTruck />,
     iconStyle:
       "bg-amber-100 text-amber-700 dark:bg-amber-950/60 dark:text-amber-400",
@@ -263,7 +263,7 @@ const FAQ_ITEMS: FAQItem[] = [
     category: "Reporting",
     question: "What should I do if I notice an unsafe food post?",
     answer:
-      "Do not request the food. Contact ShareBite through the Contact page and provide the relevant food-post information so the issue can be reviewed.",
+      "Do not request the food. Contact FeedForward through the Contact page and provide the relevant food-post information so the issue can be reviewed.",
     icon: <FiShield />,
     iconStyle:
       "bg-red-100 text-red-700 dark:bg-red-950/60 dark:text-red-400",
@@ -313,7 +313,7 @@ const FAQSection = () => {
           <div className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white/90 px-4 py-2 text-xs font-extrabold uppercase tracking-[0.15em] text-emerald-800 shadow-sm backdrop-blur-md dark:border-emerald-900/70 dark:bg-emerald-950/40 dark:text-emerald-300">
             <HiOutlineQuestionMarkCircle className="text-lg" />
 
-            ShareBite Help Centre
+            FeedForward Help Centre
           </div>
 
           <h2 className="mt-6 text-3xl font-black tracking-tight text-slate-950 dark:text-white sm:text-4xl lg:text-5xl">
@@ -395,7 +395,7 @@ const FAQSection = () => {
               </p>
 
               <p className="mt-0.5 text-xs font-medium text-slate-500 dark:text-zinc-500">
-                Updated for ShareBite users
+                Updated for FeedForward users
               </p>
             </div>
           </div>
@@ -494,7 +494,7 @@ const FAQSection = () => {
                         <div className="mt-4 inline-flex items-center gap-2 rounded-full border border-slate-200/80 bg-white/70 px-3 py-1.5 text-[10px] font-bold text-slate-500 backdrop-blur-sm dark:border-zinc-800 dark:bg-zinc-950/50 dark:text-zinc-500">
                           <FiClock />
 
-                          Quick ShareBite guidance
+                          Quick FeedForward guidance
                         </div>
                       </div>
                     </div>
@@ -530,7 +530,7 @@ const FAQSection = () => {
               </h3>
 
               <p className="mt-3 text-sm font-medium leading-7 text-slate-600 dark:text-zinc-300">
-                Contact the ShareBite team for help with food posts,
+                Contact the FeedForward team for help with food posts,
                 requests, account support, volunteering or community
                 partnerships.
               </p>

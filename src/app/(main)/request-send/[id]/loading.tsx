@@ -11,7 +11,7 @@ const LoadingPage = () => {
         <ShareBiteLoader
           mode="page"
           size="lg"
-          message="Loading ShareBite"
+          message="Loading FeedForward"
           subMessage="Please wait while we prepare your food-sharing experience"
         />
       </div>
